@@ -1,0 +1,7 @@
+@use "./variables.scss" as *;
+@use "./gallery.scss" as *;
+
+body {
+    background-color: $colorPrincipal;
+    font-family: $fuente;
+}

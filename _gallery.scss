@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+.gallery-container{
+    display: grid;
+    flex-direction: row;
+}
+
+.gallery-card{
+    margin: 10px;
+    padding: 20px;
+}

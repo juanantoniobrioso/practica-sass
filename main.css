@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.gallery-container {
+  display: grid;
+  flex-direction: row;
+}
+
+.gallery-card {
+  margin: 10px;
+  padding: 20px;
+}
+
+body {
+  background-color: #cedbda;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+}/*# sourceMappingURL=main.css.map */
