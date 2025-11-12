@@ -27,6 +27,13 @@ h1 {
   display: block;
 }
 
+.card-overlay:hover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
 * {
   margin: 0;
   padding: 0;

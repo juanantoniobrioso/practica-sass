@@ -30,8 +30,9 @@ h1{
     }
 }
 
-//.card-overlay:hover{
-//    position: absolute;
-//    background-color: $colorOverlay;
-//    //opacity: 0.9;
-//}
+.card-overlay:hover{
+    position: absolute;
+    background-color: $colorOverlay;
+    opacity: 0.5;
+    transition: 0.4s;
+}
