@@ -3,13 +3,34 @@ h1 {
 }
 
 .gallery-container {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  border: 20px;
+  justify-content: center;
   flex-direction: row;
 }
 
 .gallery-card {
-  margin: 10px;
-  padding: 20px;
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 #000000;
+}
+.gallery-card img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
